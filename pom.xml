@@ -99,12 +99,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>snapshots</id>
+            <url>http://maven.m6r.eu/repository/snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>mbr-release</id>
+            <url>http://maven.m6r.eu/repository/mbr-release/</url>
         </repository>
     </distributionManagement>
 
